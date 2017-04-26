@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Two Rectangles</title>
+</head>
+<body>
+
+	<canvas id="the-canvas">
+
+	</canvas>
+
+	<script>
+		var canvas = document.getElementById('the-canvas');
+		var ctx = canvas.getContext('2d');
+
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+
+		ctx.fillStyle = 'blue';
+		ctx.fillRect(50, 50, 100, 200);
+
+		ctx.fillStyle = 'yellow';
+		ctx.fillRect(200, 50, 100, 200);
+
+		// ctx.beginPath();
+		// ctx.moveTo(100, 100);
+		// ctx.lineTo(200, 100);
+
+		// ctx.closePath();
+		// ctx.stroke()
+
+
+	</script>
+
+</body>
+</html>
